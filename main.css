@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+background-image: url(Estrella.gif);
+}
+/***************CABEZERA*********************/
+nav{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: #fff;	
+}
+.pinterestLogo{
+	width: 40px;
+	position: absolute;
+	top: 20px;
+	left: 30px
+}
+#cabezera{
+	background-color: #EFEFEF;
+	width: 70%;
+	height: 50px;
+	margin-left:5%;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+li{
+	display: inline-block;
+	list-style: none;
+}
+#campoTexto{
+	border:transparent;
+	background-color: #EFEFEF;	
+}
+.fa-user,.fa-list-ul,.fa-commenting-o{
+	color: #999999;
+	margin: 10px;
+	font-size: 25px;
+}
+.fa-times,span,.fa-chevron-down{
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.fa-search{
+	margin-left: 5%;
+	padding-top: 15px;
+
+}
+/***********MENU******************************/
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.menuPrincipal{
+	border:1px solid #000;
+	padding: 20px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	
+	background-image: url(menu.gif);
+}
+
+/*******************CENTRAL******************/
+main{
+	margin-top:200px;
+	width: 70%;
+	margin-left:15%;
+	margin-top: 13%;
+}
+main img{
+	width: 300px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	cursor: pointer;
+}
+.centroImg{
+	text-align: center;
+	background-color: rgba(128, 125, 127, 0.4);
+}
+/*main img:hover{
+	width: 403px;
+	z-index: 1000;
+-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	cursor: pointer;
+}
+*/
+main span{
+	width: 300px;
+	height: 300px
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+/*******************FOOTER********************************/
+footer{
+	height: 50px;
+	background-color: #fff;
+}
+footer img{
+	width: 30px;
+	padding: 7px;
+	margin-left: 30%
+}
+.footerDoc{
+	text-align: center;
+}
+.footerName{
+	margin-right: 35%
+}
