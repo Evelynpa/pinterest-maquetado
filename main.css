@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Arvo', serif;
-background-image: url(Estrella.gif);
+	background-image: url(Estrella.gif);
 }
 /***************CABEZERA*********************/
 nav{
@@ -10,12 +10,13 @@ nav{
 	width: 100%;
 	top: 0px;
 	background-color: #fff;	
+	text-align: center;
 }
 .pinterestLogo{
 	width: 40px;
 	position: absolute;
 	top: 20px;
-	left: 30px
+	left: 130px
 }
 #cabezera{
 	background-color: #EFEFEF;
